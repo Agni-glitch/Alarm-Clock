@@ -3,6 +3,10 @@ body {
   margin: 0px;
   background: rgba(49, 177, 252, 0.459);
 }
+.me{
+  display: flex;
+  flex-direction: column;
+}
 .container {
   background: rgba(49, 177, 252, 0);
   display: flex;
