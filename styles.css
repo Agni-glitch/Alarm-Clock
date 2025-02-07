@@ -1,0 +1,88 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background: rgba(49, 177, 252, 0.459);
+}
+.container {
+  background: rgba(49, 177, 252, 0);
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  position: absolute;
+  align-content: space-between;
+}
+.time {
+  background: rgba(100, 238, 185, 0.658);
+  height: 10vh;
+  z-index: 5;
+  margin: 9px;
+  padding: 10px;
+  border: solid red 1px;
+  display: flex;
+  font-size: xx-large;
+  justify-content: center;
+  border-radius: 30px;
+}
+.alarm {
+  background: #f1d94eab;
+  width: 30vw;
+  z-index: 5;
+  border: solid red 1px;
+  margin: 9px;
+  display: flex;
+  flex-direction: row;
+  font-size: x-large;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.alarm div {
+  background: rgba(233, 145, 145, 0.788);
+  padding: 10px;
+  border: solid 1px;
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#hour,
+#min,
+#sec {
+  font-size: large;
+  height: 5vh;
+  width: 5vw;
+  margin: 10px;
+  border: solid red 1px;
+  background: #157555d8;
+  padding: 5px;
+  border-radius: 10px;
+  align-content: center;
+  text-align: center;
+}
+.date,
+.setAlrm,
+#clearAll,
+#pause {
+  font-size: x-large;
+  border: solid red 1px;
+  margin: 10px;
+  padding: 5px;
+  background: #c581ecd8;
+  font-size: large;
+  border-radius: 10px;
+}
+input {
+  height: 30px;
+  width: 100px;
+  font-size: x-large;
+  background: antiquewhite;
+  border-radius: 10px;
+}
+.alarm div button {
+  width: 100px;
+  margin: 2px;
+  padding: 2px;
+  background: #a0e976;
+  font-size: large;
+}
